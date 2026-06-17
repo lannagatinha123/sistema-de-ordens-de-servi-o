@@ -1,6 +1,6 @@
 <?php
 try {
-    $nome_banco = '';
+    $nome_banco = 'sistema_ordens.sqlite';
     $conexao = new PDO('sqlite:'. $nome_banco);
     $conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
